@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: whitesmoke; */
+    font-family: Verdana,Tahoma, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1280995884/vector/christmas-hand-drawn-baubles-with-empty-blank-space-for-your-message.jpg?s=612x612&w=0&k=20&c=hAZCny_Jb5ZA7nwN6EV4kVXMVyRxVmNl6bavdCmILKQ=");
+    background-size:30rem;
+    background-repeat: no-repeat;
+    
+
+}
+h1{
+    position: absolute;
+    top:10%;
+    color: #2D9596;
+    left: 34.5%;
+
+}
+
+.gif{
+    position: absolute;
+    top: 19%;
+    right: 37%;
+}
+button{
+position: absolute;
+width: 250px;
+height: 40px;
+top:60%;
+left: 50%;
+box-shadow: 0 2px 4px gray;
+
+    /* border: 3px solid green; */
+}
+.but1{
+    width:80px;  
+}
+.but2{
+    width: 80px;
+    top:60%;
+    left:39%;
+}
+
+
+.but1,.but2{
+  background-color: #2D9596;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 50px;
+  line-height: 20px;
+  list-style: none;
+  /* margin: 0; */
+  outline: none;
+  padding: 10px 16px;
+  /* position: relative; */
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.but1:hover,
+.but1:focus,.but2:hover,.but2:focus {
+  background-color: #F082AC;
+  transform: scale(1.9);
+  transition: 1.6s;
+}
