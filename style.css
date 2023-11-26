@@ -78,7 +78,7 @@ box-shadow: 0 2px 4px gray;
 }
 
 .but1:hover,
-.but1:focus,.but2:hover,.but2:focus {
+.but1:focus{
   background-color: #F082AC;
   transform: scale(1.9);
   transition: 1.6s;
