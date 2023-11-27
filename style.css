@@ -77,8 +77,7 @@ box-shadow: 0 2px 4px gray;
   touch-action: manipulation;
 }
 
-.but1:hover,
-.but1:focus{
+.but1:hover{
   background-color: #F082AC;
   transform: scale(1.9);
   transition: 1.6s;
