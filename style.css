@@ -43,14 +43,19 @@ box-shadow: 0 2px 4px gray;
 .but1{
     width:80px;  
 }
-.but2{
+#button1{
     width: 80px;
     top:60%;
     left:39%;
 }
+.but2:hover{
+    position: relative;
+    top: 10px;
+    
+}
 
 
-.but1,.but2{
+.but1,#button1{
   background-color: #2D9596;
   border-radius: 8px;
   border-style: none;
@@ -77,7 +82,8 @@ box-shadow: 0 2px 4px gray;
   touch-action: manipulation;
 }
 
-.but1:hover{
+.but1:hover,
+.but1:focus{
   background-color: #F082AC;
   transform: scale(1.9);
   transition: 1.6s;
